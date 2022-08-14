@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>COLOR RANDOMIZER</title>
+<link rel="stylesheet" type="text/css"
+href="color.css.css"/>
+</head>
+<p align= "center"><button id="c" onclick="col()">CLICK HERE</button></p>
+<script>
+    var co=document.getElementById("c");
+    function col()
+    {
+        co.style.backgroundColor="FF0000";
+    }
+    } 
+
+</script>
